@@ -1,0 +1,48 @@
+{
+  "name": "PmPermit",
+  "description": "The PmPermitBot made by @TeamInnexia special thanks to respective Himanshu. Join for updates related info @PmPermit",
+  "logo": "https://telegra.ph/file/1150004bb3a98682d2523.jpg ",
+  "keywords": [  ],
+  "repository": "https://github.com/TeamInnexia/PmSecurity/",
+  "website": "https://github.com/TeamInnexia/PmSecurity",
+  "success_url": "https://t.me/PmPermit",
+  "stake":"container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+      }
+    }
+  ],
+  "env": {
+    "ENV": {
+      "description": "Set this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "value": ""
+    },
+    "PMPERMIT_PIC": {
+      "description": "put here any telegraph media link for custom pmpermit pic.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "value": ""
+    },
+    "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
+      "value": ""
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": ""
+    }       
+  }
+}
